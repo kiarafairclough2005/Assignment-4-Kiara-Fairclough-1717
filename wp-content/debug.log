@@ -1,0 +1,3 @@
+[07-Apr-2026 17:02:22 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/Assignment-4-Kiara-Fairclough-1717/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
+[07-Apr-2026 17:03:05 UTC] PHP Fatal error:  Out of memory (allocated 35651584 bytes) (tried to allocate 2097152 bytes) in /workspaces/Assignment-4-Kiara-Fairclough-1717/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/widgets/search-widget.php on line 82
+[07-Apr-2026 17:03:05 UTC] PHP Fatal error:  Out of memory (allocated 35651584 bytes) (tried to allocate 2097152 bytes) in /workspaces/Assignment-4-Kiara-Fairclough-1717/.wordpress/wp-includes/sodium_compat/src/Core/Util.php on line 12
