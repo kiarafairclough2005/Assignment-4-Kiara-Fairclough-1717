@@ -1,0 +1,139 @@
+/*
+Theme Name:     Hotpot - Theme
+Description:    
+Author:         kiarafairclough@icloud.com
+Template:       storefront
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff5f2;
+    color: #3b1f1f;
+}
+
+header {
+    background: linear-gradient(90deg, #8b0000, #b22222);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+nav {
+    background-color: #a52a2a;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd6cc;
+}
+
+.container {
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(139, 0, 0, 0.15);
+}
+
+button {
+    background-color: #b22222;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #8b0000;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #b22222;
+}
+
+footer {
+    background-color: #3b1f1f;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.steam {
+    position: relative;
+}
+
+.steam::before,
+.steam::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    animation: steam 3s infinite ease-in-out;
+}
+
+.steam::after {
+    left: 20px;
+    animation-delay: 1.5s;
+}
+
+@keyframes steam {
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 0.6;
+    }
+    50% {
+        transform: translateY(-20px) scale(1.2);
+        opacity: 0.3;
+    }
+    100% {
+        transform: translateY(-40px) scale(1.5);
+        opacity: 0;
+    }
+}
+
+.highlight {
+    color: #b22222;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    header {
+        font-size: 22px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}
